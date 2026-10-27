@@ -141,6 +141,19 @@
                         <span class="sidebar-text">Pelanggan</span>
                     </a>
                 </li>
+                <li class="nav-item {{ request()->is('admin/portofolio*') ? 'active' : '' }}">
+                    <a href="{{ route('portofolio.index') }}" class="nav-link d-flex align-items-center">
+                        <span class="sidebar-icon">
+                            <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"></path>
+                                <path fill-rule="evenodd"
+                                    d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h6a1 1 0 100-2H7zm0 4a1 1 0 100 2h6a1 1 0 100-2H7z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </span>
+                        <span class="sidebar-text">Portofolio</span>
+                    </a>
+                </li>
 
 
 
